@@ -6,7 +6,7 @@
 
 Um painel interativo (Dashboard) em formato *Single Page Application (SPA)* desenvolvido para analisar, registrar e otimizar o desempenho da guilda **Death Cannon** nas Batalhas de Cerco (Siege Battles) do jogo Summoners War.
 
-🌐 **[Acesse o Dashboard ao vivo aqui!](https://jordaolps.github.io/sw-dashboard-siege)** *(Substitua por seu link real do GitHub Pages)*
+🌐 **[Acesse o Dashboard ao vivo aqui!](https://jordaolps.github.io/sw-dashboard-siege)**
 
 ---
 

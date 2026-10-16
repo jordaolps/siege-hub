@@ -6,6 +6,11 @@ window._a = function(i) { return btoa(i) === t_auth; };
 if (sessionStorage.getItem('_auth') === '1') {
     document.getElementById('loginScreen').style.display = 'none';
     document.getElementById('appContent').style.display = 'flex';
+    
+    // --> GARANTIA: Se a aba Sieges estiver ativa no recarregamento, renderiza o gráfico!
+    if (document.getElementById('tab-geral').classList.contains('active')) {
+        setTimeout(() => { renderizarGraficos(); graficosRenderizados = true; }, 50);
+    }
 }
 
 function _vAccess() {
